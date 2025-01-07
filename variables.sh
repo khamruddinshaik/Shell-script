@@ -1,7 +1,8 @@
 #!/bin/bash
 
 #This line is commented
-
-echo "Hi rahim"
-echo "Hi shaik"
+PERSON1=Shaik
+PERSON2=Fehmeeda
+echo "Hi $PERSON1"
+echo "Hi $PERSON2"
 echo "how are you"
