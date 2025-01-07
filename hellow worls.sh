@@ -2,4 +2,4 @@
 
 #This line is commented
 
-echo"Hellow world"
+echo "Hellow world"
