@@ -14,7 +14,7 @@ if [ $? -ne 0 ]
 then
     dnf install mysql -y
     if [ $? -ne 0 ]
-        then 
+    then 
         echo "Installing mysql.. failure"
         exit 1
     else
@@ -30,7 +30,7 @@ if [ $? -ne 0 ]
 then
     dnf install git -y
     if [ $? -ne 0 ]
-        then 
+    then 
         echo "Installing git.. failure"
         exit 1
     else
