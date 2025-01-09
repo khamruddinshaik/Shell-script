@@ -3,7 +3,7 @@
 USERID=$(id -u)
 
 if [ $USERID -ne 0 ]
-    then
+then
     echo " required sudo access to execute the script"
     exit 1
 fi
@@ -11,7 +11,7 @@ fi
 dnf list mysql installed
 
 if [ $? -ne 0 ]
-    then
+then
     dnf install mysql -y
     if [ $? -ne 0 ]
         then 
@@ -27,7 +27,7 @@ fi
 dnf list git installed
 
 if [ $? -ne 0 ]
-    then
+then
     dnf install git -y
     if [ $? -ne 0 ]
         then 
